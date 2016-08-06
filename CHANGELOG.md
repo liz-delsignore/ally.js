@@ -1,5 +1,17 @@
 # ally.js change log
 
+## 1.1.1 - Augmented Reality
+
+*August 6th 2016.* We're releasing a few fixes that have been hanging in the master branch as a bugfix release to 1.1, because waiting for 1.2 to come together is not an option for everyone.
+
+
+### The changes
+
+* fixing `supports/focus-in-hiden-iframe` to avoid `document.write()` - [issue #126](https://github.com/medialize/ally.js/issues/126)
+* fixing [`ally.maintain.disabled`][ally/maintain/disabled] to *not* disable ancestors `filter` elements
+* fixing [`ally.event.shadowFocus`][ally/event/shadow-focus] to not access `document.body` before it's available - [issue #144](https://github.com/medialize/ally.js/pull/144)
+
+
 ## 1.1.0 - Reality Strikes Back
 
 *March 18th 2016.* We're continuing our journey to *make accessibility simpler*. Version 1.1.0 - the first major update follows 4 months after making ally.js public in November 2015. In this time we've released [5 beta versions](https://github.com/medialize/ally.js/releases) and pushed [about 330 commits](https://github.com/medialize/ally.js/compare/1.0.1...1.1.0) in an effort to increase browser support and fix the myriad of bugs typically encountered in version one of any software.
