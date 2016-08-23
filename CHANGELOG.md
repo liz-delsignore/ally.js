@@ -1,5 +1,16 @@
 # ally.js change log
 
+
+## 1.2.0 - Adios DOMTokenList
+
+*August 23rd 2016.* We're releasing this fix to remove a dependency we've loaded directly off a [forked github repository](https://github.com/rodneyrehm/domtokenlist/releases/tag/1.2.0-alpha.4), rather than from npm.
+
+
+### The changes
+
+* replacing [domtokenlist-shim](https://github.com/jwilsson/domtokenlist) by [`ally.util.toggleClass`][ally/util] - [issue #147](https://github.com/medialize/ally.js/issues/147)
+
+
 ## 1.1.1 - Augmented Reality
 
 *August 6th 2016.* We're releasing a few fixes that have been hanging in the master branch as a bugfix release to 1.1, because waiting for 1.2 to come together is not an option for everyone.
