@@ -385,6 +385,8 @@
 <li><code>util/get-frame-element</code> returns the <code>&lt;iframe&gt;</code> or <code>&lt;object&gt;</code> the element is hosted in.</li>
 <li><code>util/get-window</code> returns the <code>window</code> (also known as <code>defaultView</code>) of the document and element is attached to.<code>util/get-window</code> returns the <code>window</code> (also known as <code>defaultView</code>) of the document and element is attached to.</li>
 </ul>
+<h3><a id="Mutate-Element-className-classList" href="#Mutate-Element-className-classList" class="link-to-headline" aria-label="link to headline">&#x1F517;</a>Mutate Element.className (classList)</h3>
+<p><code>util/toggle-class</code> mutates a given element&apos;s <code>class</code> attribute without using <a href="https://developer.mozilla.org/en/docs/Web/API/Element/classList"><code>classList</code></a>, as this is not consistently available on <code>Element</code> and <code>SVGEelement</code>.</p>
 
     </main>
   </div>
